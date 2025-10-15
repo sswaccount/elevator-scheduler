@@ -4,9 +4,17 @@
 
 ## 一键运行
 
+### linux
+
 ```bash
 chmod +x start.sh
 ./start.sh
+```
+
+### win
+
+```cmd
+./start.bat
 ```
 
 启动脚本会自动：
