@@ -1,4 +1,6 @@
-import elevator_saga
+import subprocess
+import sys
 
 if __name__ == "__main__":
-    print(elevator_saga.__version__)
+    cmd = [sys.executable, "-m", "app.scheduler", "shortest"]
+    subprocess.run(cmd, check=True)
